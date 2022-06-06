@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" defer href="/static/css/index.css">
+    
+    
+</head>
+<body>
+    <nav class="nav">
+        <img id="dente" src="https://img.freepik.com/vetores-gratis/dia-do-dentista-de-desenho-animado-de-dente-fofo_96373-347.jpg?w=826" alt="dente">
+        <a href="/" id="Login" class="nav__link" data-link>Login</a>
+        <a href="/cadastro" style="display: none;" class="nav__link Logado" data-link>Cadastro</a>
+        <a href="/agendamentos" style="display: none;" class="nav__link Logado"  data-link>Agendamentos</a>
+        <a href="/contato" style="display: none;" class="nav__link Logado" data-link>Contato</a>
+        <a href="/sair" style="display: none;" class="nav__link Logado" data-link>Sair</a>
+        
+    </nav>
+    <div id="app"></div>
+    <script src="/static/js/funcs.js"></script>
+    <script type="module" src="/static/js/index.js"></script>
+</body>
+</html>
