@@ -1,6 +1,6 @@
-`npm init -y` (to create a Node.js project)
-`npm i express` (to install Express)
-`node server.js` (to run the server)
-Open `localhost` in a web browser, using the port specified in `server.js` e.g. http://localhost:5060/
+1 - npm initi -y (Criar o projeto node)
+2 - npm i express (Fazer uma instalação aceitando todos os termos)
+3 - node server.js (Iniciar o servidor)
+4 - Entrar no localhost:4200
 
 
