@@ -1,6 +1,6 @@
 Grupo:
 
-Lucas Baldasar
+Lucas Baldasar,
 Guilherme Fragnani
 
 Referencia:
