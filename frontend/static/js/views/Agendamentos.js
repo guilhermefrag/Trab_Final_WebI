@@ -23,9 +23,9 @@ export default class extends AbstractView {
 							<th>Sexo</th>
 							<th>Altura(m)</th>
 							<th>Problemas Anteriores</th>
-                            <th>Utima Visita</th>
+                            <th>Última Visita</th>
 							<th>Motivo da Visita</th>
-                            <th>Horario Agendado</th>
+                            <th>Horário Agendado</th>
 						</tr>
 					</thead>
 					<tbody id="tabela-pacientes">

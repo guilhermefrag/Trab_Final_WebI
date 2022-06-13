@@ -40,13 +40,6 @@ input::-webkit-inner-spin-button {
     font-weight: 500;
 }
 
-.contatos {
-    width: 30%;
-    margin: auto;
-    justify-content: center;
-    text-align: center;
-}
-
 section {
     margin: 2em 0;
     overflow: hidden;
@@ -78,8 +71,6 @@ th {
     font-weight: bold;
     background-color: #EEE;
 }
-
-/* /// */
 
 .title-logo {
     font-size: 3em;
@@ -181,6 +172,13 @@ th {
     border-style: none none solid none;
 }
 
+.contatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .hud {
     display: none;
 }
@@ -198,9 +196,4 @@ th {
 
 .lbl-cadastro {
     color: #555;
-    margin: 2px;
-}
-
-.mostrar {
-    display: block;
 }
