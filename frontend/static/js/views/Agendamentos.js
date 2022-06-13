@@ -1,13 +1,18 @@
 import AbstractView from "./AbstractView.js";
 
 export default class extends AbstractView {
-    constructor(params) {
-        super(params);
-        this.setTitle("Agendamentos");
-    }
+  constructor(params) {
+    super(params);
+    this.setTitle("Agendamentos");
 
-    async getHtml() {
-        return `
+    document.querySelectorAll(".hud").forEach((element) => {
+      element.style.display = "flex";
+    });
+    document.querySelector("#Login").style.display = "none";
+  }
+
+  async getHtml() {
+    return `
             <h1>Agendamentos</h1>
             <section class="container">
 				<table>
@@ -82,5 +87,5 @@ export default class extends AbstractView {
 
 			</section>
         `;
-    }
+  }
 }
