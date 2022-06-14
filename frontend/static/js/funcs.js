@@ -29,4 +29,6 @@ function logout() {
   });
 
   document.getElementById("Login").style.display = "flex";
+
+  alert("Logout efetuado!");
 }

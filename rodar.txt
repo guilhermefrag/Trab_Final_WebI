@@ -2,5 +2,3 @@
 2 - npm i express (Fazer uma instalação aceitando todos os termos)
 3 - node server.js (Iniciar o servidor)
 4 - Entrar no localhost:4200
-
-

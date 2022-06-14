@@ -18,7 +18,7 @@ export default class extends AbstractView {
 
         <label class="lbl-cadastro" for="sexo">Sexo</label>
         <select id="sexo" name="sexo" value="" required>
-            <option value="">Selecione</option>
+            <option value="">- Selecione -</option>
             <option value="masc">Masculino</option>
             <option value="fem">Feminino</option>
         </select>
@@ -28,7 +28,7 @@ export default class extends AbstractView {
 
         <label class="lbl-cadastro" for="country">Problemas Anteriores</label>
         <select id="country" name="country" value="" required>
-            <option value="">Selecione</option>
+            <option value="">- Selecione -</option>
             <option value="car">Caries</option>
             <option value="geng">Probemas na gengiva</option>
             <option value="siso">Retirada recente de siso</option>
